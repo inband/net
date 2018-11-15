@@ -30,10 +30,15 @@ LAB environment/s will consist of: PROXMOX (virtualisation environment), Debian 
 - [ ] [ldp and mpls](https://github.com/inband/net/tree/master/ldp) 
 - [ ] lldp
 - [ ] nhrp (dmvpn)
+- [ ] nmap
+- [ ] pppoe
 - [ ] openvpn
 - [ ] ospf
+- [ ] radius
 - [ ] [sip](https://github.com/inband/net/tree/master/sip)
+- [ ] ssh
 - [ ] stp
+- [ ] tc
 - [ ] tcp
 - [ ] tcpdump
 - [ ] vlan
