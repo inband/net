@@ -4,7 +4,7 @@
 
 * Build networking knowledge
 
-* Find out **WHY** technologies are used.  What problem were they designed to solve and what are the use cases
+* Find out **WHY** technologies are used.  What problem/s were they designed to solve and what are the use cases
 
 * Learn **HOW** technologies behave on the wire.  Lab it up and use tcpdump understand behaviour.  Break it and see how it reacts
 
