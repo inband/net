@@ -18,20 +18,21 @@ LAB environment/s will consist of: PROXMOX (virtualisation environment), Debian 
 
 ### Technologies
 
-- [ ] automation - ansible, salt?
-- [ ] [bgp/mpls ip virtual private networks](https://tools.ietf.org/html/rfc4364)
-- [ ] dns and bind
+- [ ] [automation - ansible, salt?](https://github.com/inband/net/tree/master/automation)
+- [ ] [bgp](https://github.com/inband/net/tree/master/bgp)
+- [ ] [bgp/mpls ip virtual private networks](https://github.com/inband/net/tree/master/bgp_mpls)
+- [ ] [dns and bind](https://github.com/inband/net/tree/master/dns_bind)
 - [ ] ip
 - [ ] iproute2
 - [ ] iptables (netfilter)
 - [ ] ipv6
 - [ ] isis
-- [ ] [ldp and mpls](https://tools.ietf.org/html/rfc5036) 
+- [ ] [ldp and mpls](https://github.com/inband/net/tree/master/ldp) 
 - [ ] lldp
 - [ ] nhrp (dmvpn)
 - [ ] openvpn
 - [ ] ospf
-- [ ] [sip](https://tools.ietf.org/html/rfc3261)
+- [ ] [sip](https://github.com/inband/net/tree/master/sip)
 - [ ] stp
 - [ ] tcp
 - [ ] tcpdump
