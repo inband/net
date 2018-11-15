@@ -1,6 +1,6 @@
 # net
 
-Goals for 2019
+### Goals for 2019
 
 * Build networking knowledge
 
@@ -10,13 +10,13 @@ Goals for 2019
 
 * Attempt to find out how technologies are implemented
 
-* Learn to use github [github syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+* Learn to use [github - syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 * Learn and use automation techniques where applicable
 
 LAB environment/s will consist of: PROXMOX (virtualisation environment), Debian 9 (lxc), FRR (FR routing protocol suite).
 
-Technologies
+### Technologies
 
 - [ ] automation - ansible, salt?
 - [ ] [bgp/mpls ip virtual private networks](https://tools.ietf.org/html/rfc4364)
