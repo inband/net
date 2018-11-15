@@ -1,6 +1,6 @@
 # net
 
-### Goals for 2019
+### Goals for late 2018/2019
 
 * Build networking knowledge
 
