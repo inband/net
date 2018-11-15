@@ -22,6 +22,7 @@ LAB environment/s will consist of: PROXMOX (virtualisation environment), Debian 
 - [ ] [bgp](https://github.com/inband/net/tree/master/bgp)
 - [ ] [bgp/mpls ip virtual private networks](https://github.com/inband/net/tree/master/bgp_mpls)
 - [ ] [dns and bind](https://github.com/inband/net/tree/master/dns_bind)
+- [ ] ethernet
 - [ ] ip
 - [ ] iproute2
 - [ ] iptables (netfilter/nat/conntrack)
@@ -43,6 +44,7 @@ LAB environment/s will consist of: PROXMOX (virtualisation environment), Debian 
 - [ ] tcpdump
 - [ ] vlan
 - [ ] vrf
+- [ ] vrrp
 - [ ] vxlan
 
 
