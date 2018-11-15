@@ -14,7 +14,7 @@ Goals for 2019
 
 * Learn and use automation techniques where applicable
 
-
+LAB environment/s will consist of: PROXMOX (virtualisation environment), Debian 9 (lxc), FRR (FR routing protocol suite).
 
 Technologies
 
@@ -23,18 +23,22 @@ Technologies
 - [ ] dns and bind
 - [ ] ip
 - [ ] iproute2
-- [ ] iptables
+- [ ] iptables (netfilter)
 - [ ] ipv6
 - [ ] isis
 - [ ] [ldp and mpls](https://tools.ietf.org/html/rfc5036) 
 - [ ] lldp
+- [ ] nhrp (dmvpn)
 - [ ] openvpn
 - [ ] ospf
 - [ ] [sip](https://tools.ietf.org/html/rfc3261)
 - [ ] stp
 - [ ] tcp
+- [ ] tcpdump
 - [ ] vlan
 - [ ] vrf
 - [ ] vxlan
+
+
 
 
