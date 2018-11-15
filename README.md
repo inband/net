@@ -18,13 +18,23 @@ Goals for 2019
 
 Technologies
 
-- [ ] ansible
+- [ ] automation - ansible, salt?
 - [ ] [bgp/mpls ip virtual private networks](https://tools.ietf.org/html/rfc4364)
-
-- [ ] [ldp](https://tools.ietf.org/html/rfc5036) 
+- [ ] dns and bind
+- [ ] ip
+- [ ] iproute2
+- [ ] iptables
+- [ ] ipv6
+- [ ] isis
+- [ ] [ldp and mpls](https://tools.ietf.org/html/rfc5036) 
 - [ ] lldp
-- [ ] mpls
-
-
+- [ ] openvpn
+- [ ] ospf
 - [ ] [sip](https://tools.ietf.org/html/rfc3261)
 - [ ] stp
+- [ ] tcp
+- [ ] vlan
+- [ ] vrf
+- [ ] vxlan
+
+
