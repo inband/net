@@ -27,6 +27,17 @@ Network interfaces
 
 Loopback is N.N.N.N
 
+r1-dev-lab
+```
+1.1.1.1
+```
+
+r9-dev-lab
+```
+9.9.9.9
+```
+
+
 Connections between routers follow:
 ```
 41.1.2.0/24
