@@ -75,7 +75,7 @@ nat@ubuntu-16:~$ vim .ssh/config
 Host 172.16.99.251
 	User root
 	IdentityFile ~/.ssh/nats_lab
-
+nat@ubuntu-16:~$ ssh 172.16.99.251
 ```
 
 
