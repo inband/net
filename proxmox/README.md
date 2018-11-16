@@ -1,7 +1,7 @@
 # proxmox
 
 
-This CT was created manually through the PROXMOX web interface.
+This CT 201 was created manually through the PROXMOX web interface.
 
 ```
 root@pve5-lab:~# cat /etc/pve/lxc/201.conf 
@@ -20,6 +20,7 @@ swap: 512
 ```
 
 Note: Up to 10 network interface can be configured for a single container.
+Let's try to create a CT from the command line on the host.  CT is 250.
 
 ```
 pct create 250 local:vztmpl/debian-9.0-standard_9.3-1_amd64.tar.gz --arch amd64 --cores 1 \ 
