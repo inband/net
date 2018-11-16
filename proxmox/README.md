@@ -81,8 +81,22 @@ nat@ubuntu-16:~$ ssh 172.16.99.251
 ```
 
 
-OK this works
+OK this works.
 
+So this gives a basic CT with management IP.  Now what if I want to add a net device.
+
+```
+root@pve5-lab:~# pct set 251 --net2 name=eth0.251,bridge=vmbr0,ip=41.0.251.1/24,tag=251,type=veth
+root@pve5-lab:~# pct start 251
+root@pve5-lab:~# pct enter 251
+root@r51-dev-lab:~# ip addr show eth0.251
+177: eth0.251@if178: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether 72:59:34:b6:ab:bc brd ff:ff:ff:ff:ff:ff link-netnsid 0
+    inet 41.0.251.1/24 brd 41.0.251.255 scope global eth0.251
+       valid_lft forever preferred_lft forever
+    inet6 fe80::7059:34ff:feb6:abbc/64 scope link 
+       valid_lft forever preferred_lft forever
+```
 
 
 
