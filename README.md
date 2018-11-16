@@ -14,7 +14,12 @@
 
 * Learn and use automation techniques where applicable
 
-LAB environment/s will consist of: PROXMOX (virtualisation environment), Debian 9 (lxc), FRR (FR routing protocol suite).
+LAB environment/s will consist of: PROXMOX (virtualisation environment), Debian 9 (lxc), FRR (FR Routing protocol suite).
+
+Why use PROXMOX, Debian and FRR?
+
+I don't have alot of physical HW.  My lab is a HP Proliant G7 380 for PROXMOX.  Cisco C4948 switch and Ubiquiti EdgeLite3 router.  However, I don't think this matters at all and I'm pretty excited to study FRR.  I'm lost without **tcpdump** anyways.
+
 
 ### Technologies
 
