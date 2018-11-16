@@ -58,9 +58,12 @@ r2-dev-lab
 
 Let do a few to get a better understanding:
 
-41.3.4.2/24 - this is the interface on r4-dev-lab that links to r3-dev-lab.
-41.2.5.1/24 - this is the interface on r2-dev-lab that links to r5-dev-lab.
-41.6.9.0/24 - this is the link between r6-dev-lab and r9-dev-lab.
+41.3.4.2/24 - this is the interface on r4-dev-lab that links to r3-dev-lab
+
+41.2.5.1/24 - this is the interface on r2-dev-lab that links to r5-dev-lab
+
+41.6.9.0/24 - this is the link between r6-dev-lab and r9-dev-lab
+
 
 OK, that also needs to be vlans for the links as the Management interface is already using native vlan.
 
@@ -75,7 +78,9 @@ So how does this relate to PROXMOX.  Say I have created CT 205 with hostname r5-
 interface to connect to r4-dev-lab
 
 The interface will be:  eth0.245
+
 The vlan will be:       245
+
 The IP address will be:  41.4.5.2/24
 
 This is how to add the net interface to r5-dev-lab in PROXMOX
