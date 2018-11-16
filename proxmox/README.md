@@ -52,11 +52,13 @@ status: stopped
 root@pve5-lab:~# pct start 250
 ```
 
-That is better but can't ssh in with root
+That is better but can't ssh in with root.  
 
 ```
-
+root@pve5-lab:~#pct enter 250
 ```
+OK that works but nw have to either add public key to authorized file or edit ssh to allow login from password.  Got a better idea...
+
 
 Let's try again creating CT 251
 ```
@@ -71,7 +73,7 @@ root@pve5-lab:~# pct start 251
 Add to ssh config file 
 ```
 nat@ubuntu-16:~$ vim .ssh/config 
-## Add the follwing lines
+## Add the following lines
 Host 172.16.99.251
 	User root
 	IdentityFile ~/.ssh/nats_lab
