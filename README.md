@@ -52,7 +52,7 @@ I don't have alot of physical HW.  My lab is a HP Proliant G7 380 for PROXMOX.  
 - [ ] vrrp
 - [ ] vxlan
 
-With each of the technologies I'll provide links and references to material that has helped with my understanding.
+If I tick the technology off then I am saying **i've labbed it up** and **i get it** to some some degree.  With each of the technologies I'll provide links and references to material that has helped with my understanding.
 
 
 
