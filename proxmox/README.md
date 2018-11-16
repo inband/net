@@ -23,8 +23,8 @@ Note: Up to 10 network interface can be configured for a single container.
 Let's try to create a CT from the command line on the host.  CT is 250.
 
 ```
-oot@pve5-lab:~# pct create 250 local:vztmpl/debian-9.0-standard_9.3-1_amd64.tar.gz --arch amd64 --cores 1 \ 
---hostname r50-dev-lab --memory 512 \
+root@pve5-lab:~# pct create 250 local:vztmpl/debian-9.0-standard_9.3-1_amd64.tar.gz --arch amd64 \
+--cores 1 --hostname r50-dev-lab --memory 512 \
 --net0 name=eth0,bridge=vmbr0,gw=172.16.99.1,ip=172.16.99.250/24,type=veth \
 --onboot 1 --ostype debian --swap 512 --rootfs local-lvm:8 --password
 ```
