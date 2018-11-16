@@ -1,6 +1,6 @@
 # LAB
 
-The LAB needs to have a convention that is easy to follow.
+The LAB needs to have an addressing convention that is easy to follow.
 
 Addresses will come from **41.0.0.0/8** range.  Please note that the LAB is private and any external access 
 to the internet will be NATed.
@@ -88,7 +88,7 @@ This is how to add the net interface to r5-dev-lab in PROXMOX
 root@pve5-lab:~# pct set 205 --net2 name=eth0.245,bridge=vmbr0,ip=41.4.5.2/24,tag=245,type=veth
 ```
 
-
+THis needs to be tested further - what if there is already a netX device - does it overwrite or throw an error?
 
 
 
