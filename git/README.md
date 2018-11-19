@@ -61,5 +61,15 @@ nat@ubuntu-16:~/Documents/net$ git commit -m "Git update"
 
  - push to remote/master repository
 
+```
+nat@ubuntu-16:~/Documents/net$ git push
 
+Counting objects: 4, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 764 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To git@github.com:inband/net.git
+   1ac5bd8..511cfb9  master -> master
 
+```
