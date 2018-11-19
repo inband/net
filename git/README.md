@@ -28,12 +28,12 @@ Checking connectivity... done.
  - * adds **all** modified files
  - include file/s in next revision
 
-**git commit -m "*message*"**
+**git commit -m** "*message*"
 
  - saves the file/s that added to staging area
  - save a message
 
-**git commit -am "*message*"**
+**git commit -am** "*message*"
 
  - adds and commits in same step
 
