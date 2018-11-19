@@ -51,7 +51,7 @@ Add to ssh config file
 
 ```
 Host github.com
-        User 
+        User <username>
         IdentityFile ~/.ssh/nats_lab
 ```
 
