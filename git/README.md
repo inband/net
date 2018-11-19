@@ -33,7 +33,7 @@ Checking connectivity... done.
  - saves the file/s that added to staging area
  - save a message
 
-**git commit -m "*message*"**
+**git commit -am "*message*"**
 
  - adds and commits in same step
 
@@ -41,6 +41,21 @@ Checking connectivity... done.
 **git status**
 
  - show current status
+
+```
+nat@ubuntu-16:~/Documents/net$ git add *
+nat@ubuntu-16:~/Documents/net$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   git/README.md
+nat@ubuntu-16:~/Documents/net$ git commit -m "Git update"
+[master 511cfb9] Git update
+ 1 file changed, 50 insertions(+)
+ create mode 100644 git/README.md
+```
 
 **git push**
 
