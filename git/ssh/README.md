@@ -31,11 +31,10 @@ git remote -v
 
 
 Add user and email to global config
-
+```
 **git config user.email** *email_address* 
-
 **git config user.name** *username* 
-
+```
 
 Edit global config file **~/.gitconfig**
  - put in your own github username and email  
