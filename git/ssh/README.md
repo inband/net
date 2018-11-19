@@ -22,7 +22,7 @@ nat@ubuntu-16:~/Documents/net$ cat .git/config
 	merge = refs/heads/master
 
 ```
-Could use the follwing instead(not tested)
+Could use the following instead(not tested)
 
 ```
 git remote add origin git@github.com:inband/net.git
