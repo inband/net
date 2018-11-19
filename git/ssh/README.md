@@ -36,14 +36,14 @@ git config user.email <email_address>
 git config user.name <username>
 ```
 
-Edit global config file **~/.gitconfig**
+Or edit global config file **~/.gitconfig**
  - put in your own github username and email  
 
 ```
 nat@ubuntu-16:~/Documents/net$ cat ~/.gitconfig 
 [user]
-	email = 
-	name = 
+	email = <email_address>
+	name = <username>
 
 ```
 
