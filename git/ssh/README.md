@@ -32,8 +32,8 @@ git remote -v
 
 Add user and email to global config
 ```
-**git config user.email** *email_address* 
-**git config user.name** *username* 
+git config user.email <email_address>
+git config user.name <username>
 ```
 
 Edit global config file **~/.gitconfig**
