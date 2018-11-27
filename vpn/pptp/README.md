@@ -1,5 +1,7 @@
 # pptp
 
+[rfc2637](https://tools.ietf.org/html/rfc2637)
+
 Point to point tunnelling protocol (pptp) uses:
 
  - port 1723
@@ -15,22 +17,22 @@ Client <- Server (1723) SYN ACK
 
 Client -> Server (1723) ACK
 
-### Control Message SCCRQ
+### Control Message SCCRQ (Start Connection Control Reponse)
 Client -> Server (1723) CTRL-MSG
 
 Client <- Server (1723)  ACK
 
-### Control Message SCCRP
+### Control Message SCCRP (Start Connection Control Reponse)
 Client <- Server (1723) CTRL-MSG
 
 Client -> Server (1723)  ACK
 
-### Control Message OCRQ
+### Control Message OCRQ (Outgoing Call Request)
 Client -> Server (1723) CTRL-MSG
 
 Client <- Server (1723) ACK
 
-### Control Message OCRP
+### Control Message OCRP (Outgoing Call Response)
 Client <- Server (1723) CTRL-MSG
 
 Client -> Server (1723)  ACK
@@ -106,17 +108,17 @@ Client <- Server IPCP, Conf-Request id 1
 
 Client -> Server IPCP, Conf-Ack id 1
 
-Client -> Server IPCP, Conf-Request id 9 *request IP, DNS, NBNS*
+Client -> Server IPCP, Conf-Request id 9 **_request IP, DNS, NBNS**
 
-Client <- Server IPCP, Conf-Reject id 9  *reject NBNS*
+Client <- Server IPCP, Conf-Reject id 9  **_reject NBNS**
 
-Client -> Server IPCP, Conf-Request id 10 *request IP, DNS*
+Client -> Server IPCP, Conf-Request id 10 **_request IP, DNS**
 
-Client <- Server IPCP, Conf-Nack id 10 *nack gives out ip, dns*
+Client <- Server IPCP, Conf-Nack id 10 **_nack gives out IP, DNS_**
 
-Client -> Server IPCP, Conf-Request id 11 *request IP, DNS that were in previous nack*
+Client -> Server IPCP, Conf-Request id 11 **_request IP, DNS that were in previous nack_**
 
-Client <- Server IPCP, Conf-Ack id 11 *accept*
+Client <- Server IPCP, Conf-Ack id 11 **_accept**
 
 
 ### GRE Data flow
