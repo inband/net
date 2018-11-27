@@ -108,17 +108,17 @@ Client <- Server IPCP, Conf-Request id 1
 
 Client -> Server IPCP, Conf-Ack id 1
 
-Client -> Server IPCP, Conf-Request id 9 **_request IP, DNS, NBNS**
+Client -> Server IPCP, Conf-Request id 9 **_request IP, DNS, NBNS_**
 
-Client <- Server IPCP, Conf-Reject id 9  **_reject NBNS**
+Client <- Server IPCP, Conf-Reject id 9  **_reject NBNS_**
 
-Client -> Server IPCP, Conf-Request id 10 **_request IP, DNS**
+Client -> Server IPCP, Conf-Request id 10 **_request IP, DNS_**
 
 Client <- Server IPCP, Conf-Nack id 10 **_nack gives out IP, DNS_**
 
 Client -> Server IPCP, Conf-Request id 11 **_request IP, DNS that were in previous nack_**
 
-Client <- Server IPCP, Conf-Ack id 11 **_accept**
+Client <- Server IPCP, Conf-Ack id 11 **_accept_**
 
 
 ### GRE Data flow
