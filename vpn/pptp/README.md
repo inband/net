@@ -119,7 +119,7 @@ Client -> Server IPCP, Conf-Request id 11 *request IP, DNS that were in previous
 Client <- Server IPCP, Conf-Ack id 11 *accept*
 
 
-### Data flow
+### GRE Data flow
 Client -> Server compressed PPP data
 
 Client -> Server compressed PPP data
