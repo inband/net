@@ -2,7 +2,7 @@
 
 ### GRE - Generic Routing Encapsultaion [rfc1701](https://tools.ietf.org/html/rfc1701)
 
-See [rfc2637](https://tools.ietf.org/html/rfc2637#section-4.1) for PPTP's GRE.
+See [rfc2637](https://tools.ietf.org/html/rfc2637#section-4.1) for PPTP's Enhanced GRE header.
 
 GRE Header encapsulates a Payload Packet.  GRE is encapsulated within Delivery Header.
 
