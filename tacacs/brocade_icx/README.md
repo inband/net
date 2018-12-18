@@ -1,6 +1,6 @@
 # brocade icx
 
-Dont forgot default gateway
+Dont forget default gateway - if you need to route to $TACACS_IP
 
 
 ```
