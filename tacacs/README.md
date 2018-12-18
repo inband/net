@@ -81,6 +81,7 @@ aaa accounting commands 0 default start-stop group $GROUP-TACACS
 ```
 
 15 - show run, conf t
+
 1  - show mac address-table
 
 
