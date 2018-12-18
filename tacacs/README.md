@@ -20,7 +20,7 @@ ROUTER(config)#
 ```
 
 
-
+```
 aaa new-model
 
 aaa group server tacacs+ $GROUP-TACACS
@@ -32,6 +32,7 @@ aaa authentication login default local group $GROUP-TACACS
 
 # this allows tacacs authenication and local auth if tacacs is UNREACHABLE
 aaa authentication login default local group $GROUP-TACACS
+```
 
 You can authenticate with TACACS but will not be able to enter "Privileged EXEC" mode.  You need the following:
 
