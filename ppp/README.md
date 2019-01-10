@@ -4,12 +4,12 @@
 ```
 interface Loopback2
  description CUSTOMER_FIRST_HOP
- ip vrf forwarding VR-Customers
+ ip vrf forwarding CUSTOMERS
  ip address 22.111.222.88 255.255.255.255
 
 
 interface Virtual-Template1
- ip vrf forwarding VR-CUSTOMERS
+ ip vrf forwarding CUSTOMERS
  ip unnumbered Loopback2
  ip tcp adjust-mss 1452
  peer default ip address pool VICDSL
