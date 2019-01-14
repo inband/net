@@ -70,7 +70,7 @@ monitor session 1 destination interface Gi1/0/21
 !
 ```
 
-VXR_1
+LAB_VXR_1
 
 ```
 root@pve5-lab:~# tcpdump -nneti enp4s0f0 'not port 22 && (icmp || mpls)'
