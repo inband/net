@@ -41,7 +41,7 @@ Routing entry for 192.168.91.0/24
 ```
 LAB_VXR_3#show ip cef vrf CUST_1 192.168.91.1 detail 
 192.168.91.0/24, epoch 0
-  recursive via 172.16.100.1 label 21
+  recursive via 172.16.100.1 label 20
     nexthop 172.16.23.1 GigabitEthernet0/1.23 label 16
 
 ```
