@@ -29,3 +29,13 @@ The follow will display the RemMAC and LocMAC of a locally terminated ppppoe ses
 ```
 R1# show pppoe session interface TenGigabitEthernet 0/1/0.2338
 ```
+
+Find subcriber UID and VA identifier
+
+```
+R1# show subscriber sessions | user@domain
+
+R1# show subscriber sessions uid <uid> detailed
+```
+
+This will allow you to see IP and if service policy has been applied.
