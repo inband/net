@@ -21,3 +21,11 @@ interface Virtual-Template1
 ip local pool VICDSL 111.222.120.1 111.222.120.127
 
 ```
+
+
+
+The follow will display the RemMAC and LocMAC of a locally terminated ppppoe session.
+
+```
+R1# show pppoe session interface TenGigabitEthernet 0/1/0.2338
+```
