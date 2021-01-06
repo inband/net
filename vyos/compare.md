@@ -2,6 +2,8 @@
 
 The last 50 configurations can be compared to current configuration.  For example:
 
+From configuration mode.
+
 ```
-compare 1
+user@host# compare 1
 ```
